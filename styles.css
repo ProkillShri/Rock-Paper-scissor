@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+*{
+    font-family: 'Varela Round', sans-serif;
+    background-color: rgb(79, 64, 167);
+}
+
+h1{
+    /* animation-name: slidein ;
+    animation-duration: 3s; */
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+
+#btns{
+    display: flex;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons{
+    margin-left: 550px;
+}
+
+#rock{
+    margin-right: 20px;
+    border-radius: 20px;
+    border: 2px solid white;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    cursor: pointer;
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+#paper{
+    margin-right: 20px;
+    border-radius: 20px;
+    border: 2px solid white;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    cursor: pointer;
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+#scissors{
+    margin-right: 20px;
+    border-radius: 20px;
+    border: 2px solid white;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    cursor: pointer;
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+#scissors:hover{
+    opacity: 2;
+    box-shadow:0 0 110px rgba(0, 0, 0, 0.2); ;
+}
+#paper:hover{
+    opacity: 2;
+    box-shadow:0 0 110px rgba(0, 0, 0, 0.2); ;
+}
+#rock:hover{
+    opacity:2;
+    box-shadow:0 0 110px rgba(0, 0, 0, 0.2); ;
+}
+
+.container1{
+    display: flex;
+    border-radius:20px ;
+}
+
+#pointing{
+    border-radius: 20px;
+    border: 2px solid white;
+    width: 100px;
+    display: flex;
+    height: 100px;
+}
+
+.container2{
+    align-items: center;
+    margin-left: 120px;
+    margin-top: 12px;
+    justify-content: center;
+}
+
+#text1{
+    color: white;
+    font-size: 30px;
+}
+
+.result{
+    /* opacity: 0; */
+}
